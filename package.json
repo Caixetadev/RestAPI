@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "Rafael Caixeta <caixetadev@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "nodemon ./index.js localhost 3000"
+  },
   "dependencies": {
     "express": "^4.17.2"
   },
